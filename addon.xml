@@ -1,0 +1,13 @@
+<addon id="plugin.program.cuts" version="1.0.0" name="Cuts Program Add-on" provider-name="Your Name">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.script" library="resources/lib/main.py"/>
+    <extension point="xbmc.addon.metadata">
+        <settings>
+            <setting id="recordings_directory" label="Recordings Directory" type="folder" default="" />
+            <setting id="output_directory" label="Output Directory" type="folder" default="" />
+        </settings>
+    </extension>
+</addon>
+
