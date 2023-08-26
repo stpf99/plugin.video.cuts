@@ -1,0 +1,6 @@
+<settings>
+    <category label="Cuts Video Add-on">
+        <setting label="Recordings Directory" type="folder" id="recordings_directory" />
+        <setting label="Output Directory" type="folder" id="output_directory" />
+    </category>
+</settings>
